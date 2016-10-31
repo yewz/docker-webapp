@@ -3,6 +3,8 @@ Docker Fundamentals WebApp
 
 The Docker Fundamentals repository contains the example Hello World Python WebApp
 
+Deploy and run to AWS ECS cluster
+
 ## License
 
 Apache 2.0
