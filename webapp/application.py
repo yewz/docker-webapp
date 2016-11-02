@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     provider = str(os.environ.get('PROVIDER', 'World'))
-    return 'Hello AWS ECS '+provider+'!'
+    return 'Hello AWS ECS '+provider+'!!!'
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
